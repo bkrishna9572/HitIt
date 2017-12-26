@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.beekay.hitit.HighFrag">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="High Score"
+    android:textColor="#f00"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:textSize="45sp"
+    android:id="@+id/high"
+    android:background="@drawable/button"
+    android:gravity="center_horizontal|center_vertical"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/button"
+    android:layout_below="@+id/high"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/scoreshow"
+    android:gravity="center_horizontal|center_vertical"
+    android:textSize="50sp"/>
+
+</RelativeLayout>

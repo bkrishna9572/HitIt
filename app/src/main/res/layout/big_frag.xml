@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/status"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/back_hori">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Strikes | | |"
+            android:id="@+id/strikes"
+            android:textSize="25sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="25sp"
+                android:id="@+id/scores"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+<TableLayout
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:alpha="1.0"
+    android:layout_marginTop="25dp"
+    android:id="@+id/big_fragment">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/iview"
+            android:visibility="invisible"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:id="@+id/ib1"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/iview"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:visibility="invisible"
+            android:id="@+id/ib2"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ib3"
+            android:adjustViewBounds="true"
+            android:background="@drawable/iview"
+            android:scaleType="fitXY"
+            android:visibility="invisible"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:id="@+id/ib4"
+            android:background="@drawable/iview"
+            android:visibility="invisible"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/iview"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:id="@+id/ib5"
+            android:visibility="invisible"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:id="@+id/ib6"
+            android:background="@drawable/iview"
+            android:visibility="invisible"/>
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:id="@+id/ib7"
+            android:background="@drawable/iview"
+            android:visibility="invisible"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/iview"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:id="@+id/ib8"
+            android:visibility="invisible"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent"
+            android:background="@drawable/iview"
+            android:adjustViewBounds="true"
+            android:id="@+id/ib9"
+            android:visibility="invisible"/>
+    </TableRow>
+
+</TableLayout>
+</LinearLayout>
